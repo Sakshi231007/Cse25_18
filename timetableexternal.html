@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>College Time Table</title>
+    <style>
+        body{
+            font-family: Arial;
+            background-color: black;
+        }
+        table{
+            border-collapse: collapse;
+            width: 90%;
+            margin: 20px auto;
+            background: white;
+        }
+        caption{
+            font-size: 22px;
+            font-weight: bold;
+            padding: 10px;
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        th{
+            background-color: grey;
+            color: white;
+        }
+        .break{
+            background-color: grey;
+            font-weight: bold;
+        }
+        .lab{
+            background-color: grey;
+        }
+    </style>
+</head>
+<body>
+
+<table>
+    <caption>B.Tech CSE - Semester  Time Table</caption>
+
+    <tr>
+        <th>Day / Time</th>
+        <th>9-10</th>
+        <th>10-11</th>
+        <th>11-12</th>
+        <th>12-1</th>
+        <th>1-2</th>
+        <th>2-3</th>
+        <th>3-4</th>
+    </tr>
+
+    <tr>
+        <th>Monday</th>
+        <td>Dsa</td>
+        <td>ece</td>
+        <td>Dsa</td>
+        <td rowspan="5" class="break">LUNCH</td>
+        <td colspan="2" class="lab">
+            <!-- Nested Table for Lab >
+            <table width="100%">
+                <tr>
+                    <th colspan="2">DBMS Lab</th>
+                </tr>
+                <tr>
+                    <td>Lab A</td>
+                    <td>Lab B</td>
+                </tr>
+            </table>
+        </td>
+        <td>Maths</td>
+    </tr>
+
+    <tr>
+        <th>Tuesday</th>
+        <td>ece</td>
+        <td>Dsa</td>
+        <td>Maths</td>
+        <td>Dsa</td>
+        <td colspan="2" class="lab"> Me Lab</td>
+    </tr>
+
+    <tr>
+        <th>Wednesday</th>
+        <td colspan="2">Seminar</td>
+        <td>ece</td>
+        <td>Dsa</td>
+        <td>Maths</td>
+        <td>Sports</td>
+    </tr>
+
+   </table>
+
+</body>
+</html>
